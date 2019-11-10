@@ -1,0 +1,45 @@
+PODS:
+  - FontAwesome.swift (1.8.2)
+  - Realm (4.0.0):
+    - Realm/Headers (= 4.0.0)
+  - Realm/Headers (4.0.0)
+  - RealmSwift (4.0.0):
+    - Realm (= 4.0.0)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - Realm (from `https://github.com/realm/realm-cocoa.git`, branch `master`)
+  - RealmSwift (from `https://github.com/realm/realm-cocoa.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FontAwesome.swift
+
+EXTERNAL SOURCES:
+  Realm:
+    :branch: master
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :branch: master
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  Realm:
+    :commit: b114d23f81062d1295962ee9d555fe84cf100a93
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :commit: b114d23f81062d1295962ee9d555fe84cf100a93
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: 7938d6a03113ff3f39001bde7f50be8a0903d605
+  Realm: 0c5b8f398daeec5b29824e41c453ff9e126e31d8
+  RealmSwift: 02e1f604f7091ec535145055764ca53efa8cdc92
+
+PODFILE CHECKSUM: a7409371a9771f28958760c462e64689eb1fd0cf
+
+COCOAPODS: 1.5.2
